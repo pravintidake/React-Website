@@ -1,13 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+  *{margin:0; padding:0; box-sizing: border-box;}
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  /* margin: 0; */
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale; */
+
+  /* Custom Css */
+  background-color: rgb(215, 230, 236);
+  /* 
+  box-sizing: border-box;*/
+  /* padding: 0;*/
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* .heading {
+  color: hsl(51, 39%, 64%);
+  text-align:center;
+  text-transform:capitalize;
+  font-weight:bold;
+  text-shadow: 0px 2px 4px #a0b3a0;
+  margin: 50px 0px;
+} */
+
+/* .img_div {
+  display: flex;
+  justify-content: center;
+}
+
+.img_div img {
+  height: 300px;
+  width: 250px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px #a0b3a0;
+} */
+
+/* div {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  padding: 20px;
+  background-color: #ffe9c5;
+  color: #fa9191;
+  border-radius: 20px;
+}
+
+span {
+  color: #eb6383;
+} */
+/* Netflix app using Props and Array Css */
+
+/* .heading{
+  text-align: center;
+  background-color: white;
+  padding:15px;
+  color: #9e9e9e;
+  text-transform: uppercase;
+  font-family: 'Abel', sans-serif;
+  letter-spacing: 3px;
+}
+
+.divcard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  flex-wrap: wrap;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 11px 2px #dcd2d2;
+  border-radius: 10px;
+   margin: 3rem;
+  transition: all .2s ease-in-out;
+} */
+
+/* .cards:hover{
+  box-shadow: 0px 0px 11px 2px #7a7983;
+  transform: scale(1.03);
+  border-radius:10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  border-radius:10px;
+}
+
+img.card_img {
+  height: 250px;
+  width: 300px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.card_info {
+  margin: 20px;
+}
+
+span.card_category {
+  color: #9e9e9e;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue';
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 13px;
+}
+
+h3.card_title {
+  font-family: 'Roboto', sans-serif;
+  margin: 10px 0;
+}
+
+button {
+  padding: 5px 9px;
+  background: white;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+  color: #9e9e9e;
+  background: white;
+  border-radius: 3px;
+  border-color: #9e9e9e;
+  cursor: pointer;
+}
+
+/* Css for SLot machine game */
+/* .slot_inner {
+  margin: 10px 100px;
+  padding: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+hr {
+  margin-top : 10px;
+} */ 
+
+/* Hooks in react css */
+/* .hooksdiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10% auto ;
+  flex-direction: column;
+}
+
+.hooksdiv h1 {
+  font-size:1.5rem;
+  font-weight: bold;
+  text-align: center;
+} *
+
+ .btn {
+  margin: 10px auto;
+  padding: 10px 20px;
+  color: white;
+  border: 2px solid white;
+  font-size:1.5rem;
+  background-color:rgb(233, 33, 149);
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.btn:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 11px 2px #7a7983;
+} */
+
+/* Forms Css */
+/* input {
+  margin: 10px;
+  padding: 10px 20px;
+  color: black;
+  border: 2px solid rgb(241, 110, 110);
+  font-size:1rem;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+} */
+
+/* To Do List App Css */
+.main_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(175, 216, 219);
+  max-width: 100vw;
+  max-height: 100vh;
+}
+
+.center_div{
+  background-color: #fff;
+  height: 30rem;
+  border-radius : 1rem;
+  box-shadow: 0px 0px 10px 2px #5f4040;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10rem;
+  width: 25rem;
+}
+
+.input_div {
+  width: 90%;
+  display: flex;
+}
+
+h1 {
+  /* background-color: #8f67d6; */
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding: 10px 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+input[type="text"] {
+  border: none;
+  border-bottom: 3px solid purple;
+  margin : .5rem 0;
+  padding: .5rem;
+  width: 100%;
+  outline: none;
+  font-weight: bold;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  color: #ff0057;
+}
+button {
+  margin : .5rem;
+  padding: .5rem .8rem;
+  font-weight: bold;
+  border : none;
+  font-size: 20px;
+  background-color: rgb(75, 18, 128);
+  color: #fff;
+  border-radius:50%;
+  outline: none;
+}
+
+.add_btn {
+  background-color: rgb(75, 18, 128) !important;
+  color: #fff !important;
+  border-radius: 50% !important;
+  padding: 20px 0 !important;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3) !important;
+}
+
+button:hover, .add_btn:hover{
+  background-color: rgb(21, 148, 59) !important;
+}
+
+ol {
+  margin: 20px;
+  width: 90%;
+}
+
+ol li {
+  color: #9b79d5;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+  font-family: 'Josefin Sans', sans-serif;
+  list-style: none;
+}
+
+.TodoList_style {
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  align-items: center;
+}
+
+.TodoList_style .fa-times, .deleteIcon {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8566aa;
+  border-radius: 50%;
+  color: aliceblue;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  padding: 3px;
+}
+
+.TodoList_style .fa-times:hover, .deleteIcon:hover {
+  background-color:crimson;
+}
+
+/* //Increment and decrement the number by button click */
+h1 {
+  /* background-color: rgb(75, 18, 128); */
+  width: 100%;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  /* padding: 20px 0; */
+  /* margin: 20px 0; */
+  font-size: 3rem;
+  font-family: 'Quicksand', sans-serif;
+  text-shadow: 4px 4px 4px #343338;
+}
+/* .center_Div{
+  background-color: #fff;
+  height: 30rem;
+  border-radius : 1rem;
+  box-shadow: 0px 0px 10px 2px #5f4040;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10rem;
+  width: 25rem;
+  justify-content: center;
+} */
+
+/* .btnInc {
+  margin : 1.5rem 3rem;
+  padding: 1rem;
+  font-weight: bold;
+  border : none;
+  font-size: 20px;
+  background-color: rgb(21, 149, 223);
+  color: #fff;
+  outline: none;
+  border-radius: 10px;
+}
+
+.btnInc:hover {
+  background-color: rgb(21, 148, 59);
+  cursor: pointer;
+  box-shadow: 0px 0px 11px 2px #7a7983;
+}
+
+.btnDec {
+  margin : 1.5rem 3rem;
+  padding: 1rem;
+  font-weight: bold;
+  border : none;
+  font-size: 20px;
+  background-color: rgb(223, 68, 21);
+  color: #fff;
+  outline: none;
+  border-radius: 10px;
+}
+
+.btnDec:hover {
+  background-color: rgb(21, 148, 59);
+  cursor: pointer;
+  box-shadow: 0px 0px 11px 2px #7a7983;
+} */
+
+/* .btn_green:hover{
+  color: green;
+}
+.btn_red:hover{
+  color: red;
+} */
+
+/* .button_div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin: 2rem;
+} */

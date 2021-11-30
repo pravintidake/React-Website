@@ -1,0 +1,118 @@
+/* Css for ReactJS 🔴 LIVE INDIA Covid-19 State Wise Tracker using Real API */
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
+
+.table-responsive {
+    box-shadow: 2px 2px 11px 2px #7a7983;
+}
+
+.table {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+}
+tr td.state:hover {
+    background-color: rgb(35, 226, 169) !important;
+    color: white;
+    border: 1px solid black;
+}
+  tr td.confirmed:hover {
+    background-color: rgb(165, 61, 226) !important;
+    color: white;
+    border: 1px solid black;
+  }
+  tr td.recovered:hover {
+    background-color: rgb(12, 236, 87) !important;
+    color: white;
+    border: 1px solid black;
+  }
+  tr td.deaths:hover {
+    background-color: rgb(233, 42, 42) !important;
+    color: white;
+    border: 1px solid black;
+  }
+  tr td.Active:hover {
+    background-color: rgb(230, 36, 171) !important;
+    color: white;
+    border: 1px solid black;
+  }
+  tr td.lastupdatedtime:hover {
+    background-color: rgb(236, 233, 42) !important;
+    color: white;
+    border: 1px solid black;
+  }
+  
+  .table-scroll {
+    position: relative;
+    height: 410px;
+    margin: 0 50px;
+    overflow: auto;
+    }
+    .table-wrapper-scroll-y {
+    display: block;
+    }
+
+    /* sticky thead at top */
+    table thead tr th {
+        position: sticky;
+        top: 0;
+    }
+
+    /* Live Covid Tracker css */
+    .live_title {
+        font-size:12px;
+        animation: animate 2s linear infinite;
+    }
+
+    .main_title {
+        font-size:20px;
+    }
+
+    @keyframes animate {
+        0% {
+            opacity: 0;
+        }
+
+        50% {
+            opacity: 0.7;
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
+
+    .box {
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        flex-wrap: wrap;
+        font-family: 'Kanit', sans-serif;
+    }
+   
+    .card {
+        height: 220px;
+        width: 30%;
+        display: flex;
+        margin: 20px;
+        padding-top: 20px;
+        transition: transform 300ms ease-in-out;
+    }
+    .card:hover {
+        transform: scale(1.1);
+        /* box-shadow: 0px 0px 15px 1px #161515; */
+    }
+
+    .small_span {
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .card_name {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .card_total, .card_small {
+        font-size:50px;
+        font-weight: bold;
+        text-shadow: 10px 10px 15px #030303, 6px 9px 20px #000000;
+    }
